@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+.my_small{
+  font-size: 0.8rem;
+}
+.my_header{
+  width:100%;
+  height:10rem;
+}
+.my_footer{
+  width:100%;
+  height:25rem;
+}
+@media screen and (max-width: 991px){
+  .my_header{
+    width:100%;
+    height:10rem;
+  }
+  .my_footer{
+    width:100%;
+    height:60rem;
+  }
+}
+@media screen and (min-width: 992px){
+
+}
+
+/*�ֲ�ͼ�����Ҽ�ͷ*/
+#mycar>a>span{
+  width: 30px;
+  height: 30px;
+}
+/*�ֲ�ͼ��ָʾ����ʽ*/
+#mycar .carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.carousel-indicators .active {
+  background-color: #0aa1ed;
+}
+.my_gray{
+  color:#9f9f9f;
+}
+
+
+
+
+
+
+

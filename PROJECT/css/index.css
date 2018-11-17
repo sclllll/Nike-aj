@@ -1,0 +1,95 @@
+div.card{
+  background:#e8e8e8;
+  height:20rem;
+}
+.card>.card-body>.price{
+  color: #0aa1ed;
+  font-size: 1.5rem;
+}
+.card>.card-body>a{
+  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+  color:#fff;
+}
+img.my_img1{
+  width: 18rem;
+  height:15rem;
+  margin-left: -15rem;
+  margin-top:2rem;
+  transition:1s;
+}
+img.my_img1:hover{
+  transform:scale(1.1,1.1);
+}
+img.my_img2{
+  width: 15rem;
+  height:15rem;
+  margin-left: 11rem;
+  margin-bottom:4rem;
+  transition:1s;
+}
+img.my_img2:hover{
+  transform:scale(1.1,1.1);
+}
+@media screen and (max-width: 767px){
+  div.card{
+    width:30rem;
+    height:30rem;
+  }
+  img.my_img1{
+    width: 24rem;
+    height:20rem;
+    margin-left: 2rem;
+    transition:1s;
+  }
+  img.my_img2{
+    width: 20rem;
+    height:20rem;
+    margin-left: 6rem;
+    margin-bottom:4rem;
+    transition:1s;
+  }
+  .my-div1{
+    margin-left:1rem;
+    margin-top: 1rem;
+
+  }
+  .my_img3{
+    margin-left:10rem;
+    margin-bottom: 5rem;
+  }
+  .my_div3{
+    margin-left:1.8rem;
+    margin-top: 0.5rem;
+    background: #e8e8e8;
+  }
+  .my_div3 div.my_div5{
+    height: 26rem;
+    width:26rem;
+  }
+  .my_img4{
+    height:20rem;
+    width:20rem;
+    margin-left:3rem;
+  }
+}
+.my_div2 .card{
+  height: 15rem;
+}
+.my_img3{
+  height:10rem;
+  width: 16rem;
+  margin-top:3rem;
+  /*margin-left:-5rem;*/
+  transition:1s;
+}
+img.my_img3:hover{
+  transform:scale(1.1,1.1);
+}
+.my_btn{
+  line-height: 1rem;
+}
+
+
+
+
+

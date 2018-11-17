@@ -1,0 +1,39 @@
+.my_size{
+    width:33rem;
+
+}
+ul li img{
+    width:5rem;
+}
+.font_color{
+    color:#0aa1ed;
+    font-size: 2.5rem;
+}
+.bg_color{
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+}
+.font_size{
+    font-size: 0.8rem;
+}
+.color_w{
+    color:#fff;
+}
+.my_small_btn{
+    border:1px solid #666;
+    margin: 0.1rem;
+    font-size:0.8rem;
+}
+.btn-outline-secondary:hover{
+    color:#0aa1ed;
+    background-color:#fff;
+    border-color: #0aa1ed;
+}
+.my_input_w{
+    width:2rem;
+}
+.my_bg{
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+}

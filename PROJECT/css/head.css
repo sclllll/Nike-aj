@@ -1,0 +1,24 @@
+div{
+    display: block;
+}
+.bannner-bg{
+    background:liner-gradient(60deg, #29323c 0%,#485563 100%);
+}
+.banner{
+    margin:0 auto;
+    overflow: hidden;
+    position:relative;
+}
+.warp{
+    width:730px;
+    height: 370px;
+    margin:0 auto;
+}
+.banner .ban{
+    transform-origin: 50% 50% -881.188px; transform: rotateY(-156.294rad);
+    z-index: 10;
+    margin-top: 8px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+
+}

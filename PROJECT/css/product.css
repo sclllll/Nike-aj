@@ -1,0 +1,36 @@
+.my_bg_gray{
+ background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+}
+.my_font{
+    font-size: 0.7rem;
+}
+.my_font_color{
+    color:#0AA1ED;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.my_bg{
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+}
+.my_size{
+    width:15rem;
+    height:15rem;
+}
+.pagination>li.page-item{
+    border-radius:15%;
+}
+.pagination>li.page-item:hover{
+    border:1px solid #0aa1ed;
+}
+.my_color{
+    color:#fff;
+}
+.bg_color{
+    background: #808080;
+}
+.f_size{
+    font-size:1.2rem;
+}

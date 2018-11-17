@@ -1,0 +1,294 @@
+*{
+    top:0px;
+    padding:0px;
+}
+.nav_number{
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #E5E5E5;
+    background: white;
+    color: #8D8D8D;
+    position:relative;
+    top:0;
+}
+.nav_number .bg_border1{
+    display: inline-block;
+    padding: 0 32px;
+    border-right:1px solid #E5E5E5;
+    font-family: OneNikeCurrency,Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+}
+.nav_number .bg_border1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #8D8D8D;
+}
+.nav_number .bg_border2{
+    display: inline-block;
+    padding: 0 29px;
+    border-right:1px solid #E5E5E5;
+}
+.nav_number .bg_border3{
+    padding: 0 29px;
+    border-right:1px solid #E5E5E5;
+    display: inline-block;
+}
+.nav_number .bg_size1{
+    margin-left: -10px;
+
+}
+.nav_number .bg_size3{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 39px;
+}
+.nav_number .bg_size4{
+    padding: 0 11px;
+    border-bottom: 2px solid transparent;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav_number .bg_size4 a{
+    text-decoration: none;
+    color:#8d8d8d;
+    font-family: OneNikeCurrency,Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;;
+}
+.nav_number .bg_size5{
+    padding: 0 11px;
+    border-bottom: 2px solid transparent;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: OneNikeCurrency,Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+}
+.nav_number .bg_size5 a{
+    line-height: 39px;
+    color:#8d8d8d;
+    text-decoration:none;
+}
+.nav_number .son::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.nav_number2{
+    display: table;
+    width: 100%;
+    padding: 0 0 0 31px;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E5;
+    min-width: 768px;
+    position:relative;
+}
+.nav_number .nav_center{
+    background-color: white;
+    text-align: center;
+    padding-left: 166px;
+    font-size: 0;
+    display: table-cell;
+    height: 68px;
+}
+.nav_number2 .bc{
+    display: inline-block;
+    text-align: left;
+    text-indent: 0%;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+.nav_number2 .bc_1{
+    padding-left: 0;
+    text-align: center;
+    background-color: #fff;
+    font-family: OneNikeCurrency,Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+}
+.nav_number2 .bc_1>li:first-child{
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 0 0 190px;
+    font-size: 16px;
+}
+.nav_number2 .bc_1>li:first-child a{
+    height: 66px;
+    line-height: 68px;
+    color: #111;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_number2 .bc_1>li:nth-child(2) {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 0 0 40px;
+    font-size: 16px;
+}
+.nav_number2 .bc_1>li:nth-child(2) a{
+    height: 66px;
+    line-height: 68px;
+    color: #111;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_number2 .bc_1>li:nth-child(3) {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 0 0 30px;
+    font-size: 16px;
+}
+.nav_number2 .bc_1>li:nth-child(3) a{
+    height: 66px;
+    line-height: 68px;
+    color: #111;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_number2 .bc_1>li:nth-child(4) {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 0 0 30px;
+    font-size: 16px;
+}
+.nav_number2 .bc_1>li:nth-child(4) a{
+    height: 66px;
+    line-height: 68px;
+    color: #111;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_number2 .bc_1>li:last-child {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 0 0 0 30px;
+    font-size: 16px;
+}
+.nav_number2 .bc_1>li:last-child a{
+    height: 66px;
+    line-height: 68px;
+    color: #111;
+    display: inline-block;
+    text-decoration: none;
+}
+<!--搜索框-->
+    .nav_number2 .ss{
+    position: relative;
+    height: 32px;
+    width: 194px;
+    margin-left: 30px;
+    vertical-align: middle;
+
+}
+.searchinput{
+    line-height:32px;
+    border-right-width: 0px;
+    padding-left: 3px;
+    width: 168px;
+    font-family: arial;
+    float: left;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    color: #636365;
+    margin-left: 4px;
+    margin-top: 3px;
+    font-size: 10pt;
+    vertical-align: middle;
+    border-left-width: 0px;
+    margin-right: 3px;
+}
+.tab_search{
+    border-bottom: #cccccc 1px solid;
+    border-left: #cccccc 1px solid;
+    height: 25px;
+    border-top: #cccccc 1px solid;
+    border-right: #cccccc 1px solid;
+
+}
+.searchaction{
+    width: 21px;
+    float: left;
+    height: 17px;
+}
+.nav_number3{
+    height: 200px;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: white;
+    background-image:url("../image/air.png") ;
+    background-size:300px;
+    background-position:50% 25%;
+    background-repeat: no-repeat;
+    color: #8D8D8D;
+    position: relative;
+    top: 0;
+}
+.nav_number4{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+}
+.nav_number3 .nav_number4 ul{
+    position:absolute;
+    top:78%;
+    left:25%;
+}
+.nav_number3 .nav_number4 li a{
+    color:#222;
+    font-family: OneNikeCurrency,Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-size: 0.9em;
+}
+.nav_number5{
+    height: 800px;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: white;
+    color: #8D8D8D;
+    position: relative;
+    background-image:url("../image/07.png");
+    background-size:100% 70%;
+    background-repeat:no-repeat ;
+}
+.nav_number5 .nav_number6{
+    position: absolute;
+    left:30%;
+    top:75%;
+    width:50%;
+    height:25%
+}
+.nav_number5 .nav_number6 p{
+    margin:0px;
+    text-align: center;
+    height:48px;
+}
+.nav_number5 .nav_number6 .font_size1{
+    font-size: 2.500em;
+    font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color:#333;
+}
+.nav_number5 .nav_number6 .font_size2{
+    font-size: 2.500em;
+    font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color:#333;
+}
+.nav_number5 .nav_number6 .font_size3{
+    font-size: .9375em;
+    font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-style: normal;
+    color:#333;
+    margin-top: .30em;
+    margin-bottom: .30em;
+    height:24px;
+}
+.nav_number5 .nav_number6 .font_size4{
+    font-size: .9375em;
+    font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,'Heiti SC','ST Heiti',华文黑体,'Microsoft YaHei',雅黑体,SimHei,黑体,sans-serif;
+    font-style: normal;
+    color:#333;
+    margin-bottom: .30em;
+    height:24px;
+}
+
+
+
+
+
